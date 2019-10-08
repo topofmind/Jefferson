@@ -4146,6 +4146,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a3ab9', end
 	}
 
 	/*----- admission------*/
+	.infoSeccion.admission.column {
+		flex-direction: column-reverse;
+	}
 	.infoSeccion.admission{
 		flex-direction: column;
 	}
