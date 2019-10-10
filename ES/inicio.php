@@ -88,10 +88,10 @@
 
 					<div class="artNews">
 						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-avistamiento-aves-min.jpg" alt="avistamiento d aves purilia">
-							<a href="noticias/jefferson-news/avistamiento-aves.php">
+							<img src="../img/noticias/jefferson-news/news-jenny-valencia-min.jpg" alt="Jenny Valencia participará en la Feria Internacional del Libro de Cali">
+							<a href="noticias/jefferson-news/jenny-valencia.php">
 								<div class="infoArt">
-									<h3>Avistamiento de aves en Purilia</h3>
+									<h3>¡Nuestra maestra Jenny Valencia participará en la Feria Internacional del Libro de Cali!</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>

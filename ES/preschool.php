@@ -38,6 +38,11 @@
 					Toda la propuesta está enfocada en promover en nuestros niños competencias que les permitan construir diferentes maneras de pensar, buscar soluciones a los problemas y apropiarse de diversas maneras de trabajar. La comunicación es el eje central de los acuerdos, se les brindan espacios donde ellos van fortaleciendo las diversas herramientas para asumir las exigencias que les propondrá su vida adulta. De esta manera podrán vivir en el mundo con responsabilidad social y conciencia global.</p>
 
 				<p>
+					<span><b>Edades:</b></span> <br>
+					Recibimos a los niños en nuestro primer nivel (Kinder), con 4 años cumplidos al 31 de julio. En Transition las edades de los niños están entre 5 y 6 años; y en First Grade entre 6 y 7 años.
+				</p>
+
+				<p>
 					<span><b>Horario</b></span> <br>
 					Jornada curricular: 7:15 am a 12:15 pm <br> 
 					PAC (Programa de Actividades Complementarias): de 12:30 pm a 2:30 pm.

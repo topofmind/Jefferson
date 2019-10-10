@@ -2513,7 +2513,7 @@ h4.numGrados:after{
 	box-shadow: none;
 }
 .infoSeccion.admission.column{
-	flex-direction: column;
+	flex-direction: column-reverse;
 }
 .infoSeccion.admisionTempr{
 	box-shadow: none;
