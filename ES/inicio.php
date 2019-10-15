@@ -100,10 +100,10 @@
 
 					<div class="artNews">
 						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-urban-camp-min.jpg" alt="Urban Camp">
-							<a href="noticias/jefferson-news/urban-camp.php">
+							<img src="../img/noticias/jefferson-news/news-escuela-liderazgo-min.jpg" alt="Escuela de liderazgo">
+							<a href="noticias/jefferson-news/escuela-liderazgo.php">
 								<div class="infoArt">
-									<h3>Urban Camp</h3>
+									<h3>Proyecto “Escuela de Liderazgo”</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>
