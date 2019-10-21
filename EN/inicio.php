@@ -105,10 +105,10 @@
 
 					<div class="artNews">
 						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-urban-camp-min.jpg" alt="Urban Camp">
-							<a href="noticias/jefferson-news/urban-camp.php">
+							<img src="../img/noticias/jefferson-news/news-escuela-liderazgo-min.jpg" alt="Escuela de liderazgo">
+							<a href="noticias/jefferson-news/escuela-liderazgo.php">
 								<div class="infoArt">
-									<h3>Urban Camp</h3>
+									<h3>Leadership school</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>
@@ -129,10 +129,10 @@
 
 					<div class="artNews">
 						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-proyecto-prometeo-min.jpg" alt="Proyecto Prometeo ">
-							<a href="noticias/jefferson-news/proyecto-prometeo.php">
+							<img src="../img/noticias/jefferson-news/news-open-house-min.jpg" alt="Proyecto Prometeo ">
+							<a href="noticias/jefferson-news/open-house.php">
 								<div class="infoArt">
-									<h3>Prometheus Project: "Que viva la música"</h3>
+									<h3>Open House</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>
@@ -343,10 +343,7 @@
 			<i class="fas fa-times-circle" id="closeModal"></i>
 			<div class="modalcontPac adv">
 				
-				<h2>AdvancED</h2>
-				<p> At Colegio Jefferson, we meet international standards for quality and successful professional practice.</p> 
-				
-				<p>We are focused on continuous improvement, on increasing our students' performance day by day, on providing a safe and enriching learning environment, and on maintaining efficient and effective educational processes with highly qualified personnel.</p>
+				<img src="../img/texto-advanced-ingles.jpg"  width="100%" alt="">
 			</div>
 		</div>
 	</div>
