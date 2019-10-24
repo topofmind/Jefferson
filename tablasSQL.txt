@@ -1,0 +1,41 @@
+mail
+
+	-tabla aspirante:
+		id
+		nombre
+		apellido
+		fechaNacimiento
+		jardin
+		direccion
+
+	- tabla padres
+		idPadre
+		idHijo
+		nombrePadre
+		celularPadre
+		emailPadre
+		profesion
+		cargo
+		egresado
+
+	- tabla madre
+		idMadre
+		idHijo
+		nombreMadre
+		celularMadre
+		emailMadre
+		profesionMadre
+		cargoMadre
+		egresadoM
+
+
+	- tabla fecha Open House
+		id fecha
+		id hijo
+		fecha1
+
+	- tabla Admin
+		idAdmin
+		user
+		password
+

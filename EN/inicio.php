@@ -117,10 +117,10 @@
 
 					<div class="artNews">
 						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-taller-padres-min.jpg" alt="talleres para padres">
-							<a href="noticias/jefferson-news/taller-padres.php">
+							<img src="../img/noticias/jefferson-news/news-celebracion-advanced-min.jpg" alt="celebracion advanced">
+							<a href="noticias/jefferson-news/celebraciones-advanced.php">
 								<div class="infoArt">
-									<h3>Talleres para padres  en Kínder y Transición</h3>
+									<h3>AdvancED Celebration</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>

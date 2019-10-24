@@ -19,6 +19,7 @@
     gtag('config', 'UA-108805524-1');
   </script>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/estilos.css">
   <title>Document</title>
 </head>
 <body>
@@ -36,38 +37,38 @@ if($_POST['nameForm'] == "FormCafe" || $_POST['nameForm'] == "FormOpenHouse"){
 
   $asunto = "Formulario Open House";
 
-  echo "Datos Aspirandee <br>";
+  /*echo*/ "Datos Aspirandee <br>";
   
-  echo $nombre= $_POST['nombre']."<br>";
-  echo $apellido = $_POST['apellido']."<br>";
-  echo $fechaN = $_POST['fechaNacimiento']."<br>";
-  echo $jardin = $_POST['jardin']."<br>";
-  echo $direccion = $_POST['direccion']."<br>";
+  /*echo*/ $nombre= $_POST['nombre']."<br>";
+  /*echo*/ $apellido = $_POST['apellido']."<br>";
+  /*echo*/ $fechaN = $_POST['fechaNacimiento']."<br>";
+  /*echo*/ $jardin = $_POST['jardin']."<br>";
+  /*echo*/ $direccion = $_POST['direccion']."<br>";
   
-  echo "<br>";
+  /*echo*/ "<br>";
   
-  echo "Datos Padre <br>";
-  echo $nombreP = $_POST['nombrePadre']."<br>";
-  echo $celularP = $_POST['celularPadre']."<br>";
-  echo $emailP = $_POST['emailPadre']."<br>";
-  echo $egresadP = $_POST['egresado']."<br>";
-  echo $profesionP = $_POST['profesion']."<br>";
-  echo $CargoP = $_POST['cargo']."<br>";
+  /*echo*/ "Datos Padre <br>";
+  /*echo*/ $nombreP = $_POST['nombrePadre']."<br>";
+  /*echo*/ $celularP = $_POST['celularPadre']."<br>";
+  /*echo*/ $emailP = $_POST['emailPadre']."<br>";
+  /*echo*/ $egresadP = $_POST['egresado']."<br>";
+  /*echo*/ $profesionP = $_POST['profesion']."<br>";
+  /*echo*/ $CargoP = $_POST['cargo']."<br>";
   
-  echo "<br>";
+  /*echo*/ "<br>";
   
-  echo "Datos Madre <br>";
-  echo $nombreM = $_POST['nombreMadre']."<br>";
-  echo $celularM = $_POST['celularMadre']."<br>";
-  echo $emailM = $_POST['emailMadre']."<br>";
-  echo $egresadM = $_POST['egresadoM']."<br>";
-  echo $profesionM = $_POST['profesionMadre']."<br>";
-  echo $CargoM = $_POST['cargoMadre']."<br>";
+  /*echo*/ "Datos Madre <br>";
+  /*echo*/ $nombreM = $_POST['nombreMadre']."<br>";
+  /*echo*/ $celularM = $_POST['celularMadre']."<br>";
+  /*echo*/ $emailM = $_POST['emailMadre']."<br>";
+  /*echo*/ $egresadM = $_POST['egresadoM']."<br>";
+  /*echo*/ $profesionM = $_POST['profesionMadre']."<br>";
+  /*echo*/ $CargoM = $_POST['cargoMadre']."<br>";
   
-  echo "<br>";
+  /*echo*/ "<br>";
 
-  echo "Politicas de tratamiento de datos personales <br>";
-  echo $politicas = $_POST['politicas']."<br>";
+  /*echo*/ "Politicas de tratamiento de datos personales <br>";
+  /*echo*/ $politicas = $_POST['politicas']."<br>";
 
   $message ='<b>Nombre Aspirante: </b> '.$nombre.''.$apellido.
   '<br><b>Fecha de Nacimiento: </b> '.$fechaN.
@@ -87,7 +88,7 @@ if($_POST['nameForm'] == "FormCafe" || $_POST['nameForm'] == "FormOpenHouse"){
 
     $asunto = "Formulario Café con Admisiones";
 
-    if(isset($_POST['fecha1'])){ echo $fecha1 = $_POST['fecha1']."<br>"; }else{$fecha1 = '';}
+    if(isset($_POST['fecha1'])){ /*echo*/ $fecha1 = $_POST['fecha1']."<br>"; }else{$fecha1 = '';}
     if(isset($_POST['fecha2'])){ echo $fecha2 = $_POST['fecha2']."<br>"; }else{$fecha2 = '';}
     if(isset($_POST['fecha3'])){ echo $fecha3 = $_POST['fecha3']."<br>"; }else{$fecha3 = '';}
 
@@ -257,8 +258,8 @@ if(isset($_POST['nameForm']) && $_POST['nameForm'] == 'FormTrabajar'){
   }
 
   if ($_POST['nameForm'] == 'FormCafe') {
-      $mail->addAddress('asismercadeo@jefferson.edu.co', 'Sitio Web');
-      $mail->addAddress('arojas@jefferson.edu.co', 'Sitio Web');
+      // $mail->addAddress('asismercadeo@jefferson.edu.co', 'Sitio Web');
+      // $mail->addAddress('arojas@jefferson.edu.co', 'Sitio Web');
   }
 
   if ($_POST['nameForm'] == 'FormSugerencias') {
@@ -290,7 +291,7 @@ if(isset($_POST['nameForm']) && $_POST['nameForm'] == 'FormTrabajar'){
   $mail->AltBody = 'This is a plain-text message body';
   //Attach an image file
   
-  if($_FILES['hdv']){
+  if(isset($_FILES['hdv'])){
 
     $mail->addAttachment($ruta_archivos,$nombre_archivo);
   }
@@ -300,7 +301,9 @@ if(isset($_POST['nameForm']) && $_POST['nameForm'] == 'FormTrabajar'){
   if (!$mail->send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
   } else {
-      echo "<script>alert('Fromulario enviado con exito');document.location='../ES/".$url."'</script>";
+      // echo "<script>alert('Fromulario enviado con exito');document.location='../ES/".$url."'</script>";
+    include_once 'response-mail.php';
+
   }
 
 ?>
