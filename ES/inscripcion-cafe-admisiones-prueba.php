@@ -27,12 +27,13 @@
 			<h3>Por el momento no tenemos fecha para el café con admisiones, para más información comunicarse al: PBX + 57(2)6582700 ext 111 </h3>
 		</div>
 		 -->
-		 <form action="../validate/envioform.php" method="POST">
+		 <form action="../validate/envioform-prueba.php" method="POST" id="formulario">
 			<input type="hidden" value="FormCafe" name="nameForm">
 				<div class="contInput">
 					<div class="subtitleForm">
 						Datos Aspirante
 					</div>
+					
 					<div class="inputInset">
 						<input type="text" name="nombre" placeholder="Nombre" required>
 						<input type="text" name="apellido" placeholder="Apellido" required>
@@ -109,23 +110,18 @@
 							
 
                             <div>
-								<label for="Noviembre22">Noviembre 22 de 2019 (cupo lleno)</label>
-  								
+								<label for="Noviembre15">Noviembre 15 de 2019</label>
+  								<input id="Noviembre15" type="radio" name="fecha1" value="Noviembre 15" >
+                            </div>
+
+                            <div>
+								<label for="Noviembre22">Noviembre 22 de 2019</label>
+  								<input id="Noviembre22" type="radio" name="fecha1" value="Noviembre 22" >
                             </div>
 
                             <div>
 								<label for="Noviembre29">Noviembre 29 de 2019</label>
   								<input id="Noviembre29" type="radio" name="fecha1" value="Noviembre 29" >
-                            </div>
-
-                            <div>
-								<label for="Diciembre06">Diciembre 06 de 2019</label>
-  								<input id="Diciembre06" type="radio" name="fecha1" value="Diciembre 06" >
-                            </div>
-
-                            <div>
-								<label for="Diciembre11">Diciembre 11 de 2019</label>
-  								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
                             </div>
                            
 						</div>					
@@ -143,8 +139,10 @@
 					</div>
 				</div>
 
+				<input type="hidden" name="idioma" value="es">
+
 				<div class="contInput text">
-					<button class="submitOH" type="submit">Enviar</button>
+					<button class="submitOH" id="submitOH" type="submit">Enviar</button>
 				</div>
 			</form>
 			
@@ -156,6 +154,38 @@
 
 	</div>
 
+<script>
+
+	let btn = document.getElementById('submitOH');
+
+	btn.onclick = (e)=>{
+
+		e.preventDefault();
+
+		const data = new FormData(document.getElementById('formulario'));
+
+		fetch('../mails/Controllers/controller-mails.php', {
+	   		method: 'POST',
+	   		body: data
+		})
+		.then(function(response) {
+	    if(response.ok) {
+	       return response.text()
+	    } else {
+	       throw "Error en la llamada Ajax";
+	    }
+
+		})
+		.then(function(texto) {
+		   console.log(texto);
+		})
+		.catch(function(err) {
+		   console.log(err);
+		});
+	}
+	
+
+</script>
 
 </body>
 </html>

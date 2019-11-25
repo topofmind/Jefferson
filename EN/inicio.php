@@ -139,7 +139,7 @@
 						</div>
 					</div>
 
-					<div class="artNews">
+					<!-- <div class="artNews">
 						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-reconocimiento-gato-min.jpg" alt="reconocimiento gato">
 							<a href="noticias/jefferson-news/reconocimiento-modelo-onu.php">
@@ -185,7 +185,7 @@
 								</div>
 							</a>
 						</div>
-					</div>				
+					</div>		 -->		
 				
 				</div>
 

@@ -64,6 +64,18 @@
 
 					<div class="artNews">
 						<div class="artNew">
+							<img src="../img/noticias/jefferson-news/news-olimpiada-mate-min.jpg" alt="olimpiadas matematicas">
+							<a href="noticias/jefferson-news/olimpiadas-matematicas.php">
+								<div class="infoArt">
+									<h3>Olimpiadas matemáticas</h3>
+									<h4>Leer</h4>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="artNews">
+						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-intercambio-usa-min.jpg" alt="asamblea estudiantil">
 							<a href="noticias/jefferson-news/intercambio-cultural-usa.php">
 								<div class="infoArt">
@@ -134,7 +146,7 @@
 						</div>
 					</div>
 
-					<div class="artNews">
+					<!-- <div class="artNews">
 						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-reconocimiento-gato-min.jpg" alt="reconocimiento gato">
 							<a href="noticias/jefferson-news/reconocimiento-modelo-onu.php">
@@ -180,7 +192,7 @@
 								</div>
 							</a>
 						</div>
-					</div>
+					</div> -->
 
 					
 

@@ -37,38 +37,40 @@ if($_POST['nameForm'] == "FormCafe" || $_POST['nameForm'] == "FormOpenHouse"){
 
   $asunto = "Formulario Open House";
 
-  /*echo*/ "Datos Aspirandee <br>";
+  /*echo"Datos Aspirandee <br>";*/
   
-  /*echo*/ $nombre= $_POST['nombre']."<br>";
-  /*echo*/ $apellido = $_POST['apellido']."<br>";
-  /*echo*/ $fechaN = $_POST['fechaNacimiento']."<br>";
-  /*echo*/ $jardin = $_POST['jardin']."<br>";
-  /*echo*/ $direccion = $_POST['direccion']."<br>";
+  /*echo*/ $nombre= $_POST['nombre'];
+  /*echo*/ $apellido = $_POST['apellido'];
+  /*echo*/ $fechaN = $_POST['fechaNacimiento'];
+  /*echo*/ $jardin = $_POST['jardin'];
+  /*echo*/ $direccion = $_POST['direccion'];
   
   /*echo*/ "<br>";
   
   /*echo*/ "Datos Padre <br>";
-  /*echo*/ $nombreP = $_POST['nombrePadre']."<br>";
-  /*echo*/ $celularP = $_POST['celularPadre']."<br>";
-  /*echo*/ $emailP = $_POST['emailPadre']."<br>";
-  /*echo*/ $egresadP = $_POST['egresado']."<br>";
-  /*echo*/ $profesionP = $_POST['profesion']."<br>";
-  /*echo*/ $CargoP = $_POST['cargo']."<br>";
+  /*echo*/ $nombreP = $_POST['nombrePadre'];
+  /*echo*/ $celularP = $_POST['celularPadre'];
+  /*echo*/ $emailP = $_POST['emailPadre'];
+  /*echo*/ $egresadP = $_POST['egresado'];
+  /*echo*/ $profesionP = $_POST['profesion'];
+  /*echo*/ $CargoP = $_POST['cargo'];
   
   /*echo*/ "<br>";
   
   /*echo*/ "Datos Madre <br>";
-  /*echo*/ $nombreM = $_POST['nombreMadre']."<br>";
-  /*echo*/ $celularM = $_POST['celularMadre']."<br>";
-  /*echo*/ $emailM = $_POST['emailMadre']."<br>";
-  /*echo*/ $egresadM = $_POST['egresadoM']."<br>";
-  /*echo*/ $profesionM = $_POST['profesionMadre']."<br>";
-  /*echo*/ $CargoM = $_POST['cargoMadre']."<br>";
+  /*echo*/ $nombreM = $_POST['nombreMadre'];
+  /*echo*/ $celularM = $_POST['celularMadre'];
+  /*echo*/ $emailM = $_POST['emailMadre'];
+  /*echo*/ $egresadM = $_POST['egresadoM'];
+  /*echo*/ $profesionM = $_POST['profesionMadre'];
+  /*echo*/ $CargoM = $_POST['cargoMadre'];
+
+  $idioma = $_POST['idioma'];
   
   /*echo*/ "<br>";
 
-  /*echo*/ "Politicas de tratamiento de datos personales <br>";
-  /*echo*/ $politicas = $_POST['politicas']."<br>";
+  /*echo "Politicas de tratamiento de datos personales <br>";*/
+  /*echo*/ $politicas = $_POST['politicas'];
 
   $message ='<b>Nombre Aspirante: </b> '.$nombre.''.$apellido.
   '<br><b>Fecha de Nacimiento: </b> '.$fechaN.
@@ -303,8 +305,21 @@ if(isset($_POST['nameForm']) && $_POST['nameForm'] == 'FormTrabajar'){
   if (!$mail->send()) {
       echo "Mailer Error: " . $mail->ErrorInfo;
   } else {
-      // echo "<script>alert('Fromulario enviado con exito');document.location='../ES/".$url."'</script>";
-    include_once 'response-mail.php';
+
+    if(isset($_POST['nameForm']) && $_POST['nameForm'] == "FormCafe" ){
+
+      if($idioma == 'es'){
+        include_once 'response-mail.php';
+      }else{
+        include_once 'response-mail-en.php';
+      }
+    
+      
+    }else{
+
+      echo "<script>alert('Fromulario enviado con exito');document.location='../ES/".$url."'</script>";
+    }
+    
 
   }
 

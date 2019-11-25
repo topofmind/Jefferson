@@ -39,7 +39,7 @@
 					<a href="../img/formacionSocial.jpg" target="_blank">
 						<img src="../img/formacionSocial.jpg" alt="">
 					</a>
-					<a href="../img/EnfoquePrograma.png" class="imgEnfoque" target="_blank">
+					<a href="../img/EnfoquePrograma-2.png" class="imgEnfoque" target="_blank">
 						<img src="../img/EnfoquePrograma.png" alt="">
 					</a>
 				</div>

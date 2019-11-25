@@ -33,7 +33,7 @@
 					<a href="../img/formacionSocial-ingles.jpg" target="_blank">
 						<img src="../img/formacionSocial-ingles.jpg" alt="">
 					</a>
-					<a href="../img/EnfoquePrograma-ingles.png" class="imgEnfoque" target="_blank">
+					<a href="../img/EnfoquePrograma-ingles-2.png" class="imgEnfoque" target="_blank">
 						<img src="../img/EnfoquePrograma-ingles.png" alt="">
 					</a>
 				</div>

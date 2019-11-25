@@ -1,10 +1,12 @@
 <?php 
 
+namespace Mails\Models;
+use \PDO as PDO;
 
 class Conexion 
 {
 
-	private $user="root";//adMails
+	private $user="root";//jeffepyd_adMails
 	private $password="";//B+6X%H]^Ay[}
 	private $host="localhost";
 	private $db="jeffepyd_mails";//jeffepyd_mails

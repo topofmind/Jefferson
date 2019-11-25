@@ -106,25 +106,24 @@
                 <div class="inputInset radio">		
 						<div class="contRadio cafe">
 							
-                            
-							<div>
-								<label for="octubre25">October 25, 2019 ( Cupo lleno )</label>
+                            <div>
+								<label for="Noviembre22">November 22, 2019 (cupo lleno)</label>
   								
                             </div>
 
                             <div>
-								<label for="Noviembre1">November 1, 2019 ( Cupo lleno )</label>
-  								
+								<label for="Noviembre29">November 29, 2019</label>
+  								<input id="Noviembre29" type="radio" name="fecha1" value="Noviembre 29" >
                             </div>
 
                             <div>
-								<label for="Noviembe8">November 8, 2019</label>
-  								<input id="Noviembe8" type="radio" name="fecha1" value="Noviembre 8" >
+								<label for="Diciembre06">December 06, 2019</label>
+  								<input id="Diciembre06" type="radio" name="fecha1" value="Diciembre 06" >
                             </div>
 
                             <div>
-								<label for="Noviembe15">November 15, 2019</label>
-  								<input id="octubre15" type="radio" name="fecha1" value="Noviembre 15" >
+								<label for="Diciembre11">December 11, 2019</label>
+  								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
                             </div>
                            
 						</div>					

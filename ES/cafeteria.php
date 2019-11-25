@@ -20,7 +20,7 @@
 		
 		<section class="infoSeccion directorio">
             <div class="contDirectorio local">
-            	<a class="aDirect" href="../archives/cafeteria-preprimaria.jpg" target="_blank">
+            	<a class="aDirect" href="../archives/cafeteria-preprimaria-nov.jpg" target="_blank">
                     <div class="imgDiectory " id="presPri">
                         <img src="../img/cafeteria-primaria-preescolar.jpg" alt="">
                     </div>
@@ -30,7 +30,7 @@
                 </a>   
             </div>
             <div class="contDirectorio comunidad">
-            	<a class="aDirect" href="../archives/cafeteria-primaria-junior-senior.jpg" target="_blank">
+            	<a class="aDirect" href="../archives/cafeteria-primaria-junior-senior-nov.jpg" target="_blank">
                     <div class="imgDiectory" id="junSen">
                         <img src="../img/cafeteria-junior-senior.jpg" alt="">
                     </div>
