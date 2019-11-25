@@ -109,13 +109,8 @@
 							
 
                             <div>
-								<label for="Noviembre22">Noviembre 22 de 2019 (cupo lleno)</label>
+								<label for="Noviembre29">Noviembre 29 de 2019 (cupo lleno)</label>
   								
-                            </div>
-
-                            <div>
-								<label for="Noviembre29">Noviembre 29 de 2019</label>
-  								<input id="Noviembre29" type="radio" name="fecha1" value="Noviembre 29" >
                             </div>
 
                             <div>
