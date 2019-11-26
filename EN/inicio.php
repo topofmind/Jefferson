@@ -57,7 +57,7 @@
 					<div class="artNews">
 						<div class="artNew">
 							<img class="animImg" src="../img/noticias/jefferson-news/advanced-min.jpg" alt="asamblea estudiantil">
-							<a id="advd" style="cursor: pointer;">
+							<a href="noticias/jefferson-news/advanced.php" id="advd" style="cursor: pointer;">
 								<div class="infoArt iA2">
 									<h3>AdvancED</h3>
 									
@@ -118,7 +118,7 @@
 					<div class="artNews">
 						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-celebracion-advanced-min.jpg" alt="celebracion advanced">
-							<a href="noticias/jefferson-news/celebraciones-advanced.php">
+							<a  href="noticias/jefferson-news/celebraciones-advanced.php">
 								<div class="infoArt">
 									<h3>AdvancED Celebration</h3>
 									<h4>Leer</h4>
@@ -138,54 +138,7 @@
 							</a>
 						</div>
 					</div>
-
-					<!-- <div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-reconocimiento-gato-min.jpg" alt="reconocimiento gato">
-							<a href="noticias/jefferson-news/reconocimiento-modelo-onu.php">
-								<div class="infoArt">
-									<h3>Reconocimiento Gato Modelo ONU</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-jornadas-culturales-min.jpg" alt="Jornadas culturales">
-							<a href="noticias/jefferson-news/jornadas-culturales.php">
-								<div class="infoArt">
-									<h3>Jornadas culturales</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-donacion-canchas-min.jpg" alt="donacion canchas de futbol y voleyball">
-							<a href="noticias/jefferson-news/donacion-canchas.php">
-								<div class="infoArt">
-									<h3>Don de terrains de basket-ball et de volley-ball</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>
-					
-					<div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-formacionSocial-encuentro-min.jpg" alt="encuentro con instituto policarpa">
-							<a href="noticias/jefferson-news/encuentro-policarpa.php">
-								<div class="infoArt">
-									<h3>Encuentro 3° con Institución Policarpa</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>		 -->		
+		
 				
 				</div>
 
@@ -363,7 +316,7 @@
 	let banners = document.getElementsByClassName("banner");
 	//contando hijos del contbanner 
 
-		let advanded = document.getElementById('advd');
+	let advanded = document.getElementById('advd');
 	let closeModal = document.getElementById('closeModal');
 	let modal = document.getElementById('modal');
 	let contModal = document.getElementById('contModal');
@@ -385,7 +338,7 @@
 
 	}
 
-	interactiveModal(advanded,modal,closeModal,contModal)
+	//interactiveModal(advanded,modal,closeModal,contModal)
 
 	//------------------- CALENDARIO --------------------
 
