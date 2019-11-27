@@ -108,9 +108,9 @@
 						<div class="contRadio cafe">  
 							
 
-                            <div>
-								<label for="Noviembre29">Noviembre 29 de 2019 (cupo lleno)</label>
-  								
+							<div>
+								<label for="Diciembre05">Diciembre 05 de 2019</label>
+  								<input id="Diciembre05" type="radio" name="fecha1" value="Diciembre 05" >
                             </div>
 
                             <div>
@@ -118,10 +118,10 @@
   								<input id="Diciembre06" type="radio" name="fecha1" value="Diciembre 06" >
                             </div>
 
-                            <div>
+                            <!--<div>
 								<label for="Diciembre11">Diciembre 11 de 2019</label>
   								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
-                            </div>
+                            </div>-->
                            
 						</div>					
 					</div>
