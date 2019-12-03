@@ -25,7 +25,7 @@ class Modelo extends Conexion
             }else{
 
             $this->arreglonombres[]=$nombres;
-            $this->arreglovalores[]=$valores;
+            $this->arreglovalores[]=utf8_decode($valores);
             
             //eliminar el primer valor que hace referencia al nombre del formulario
             

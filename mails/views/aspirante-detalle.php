@@ -8,57 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Document</title>
-    <style>
-        .container.min{
-            max-width:900px;
-            margin:15px auto;
-            padding:2em 2em;
-            /* border: 2px solid; */
-            border-radius: 1em;
-            box-sizing:border-box;
-            background: #1565c0;
-        }
-        .container.min h1{
-            color:white;
-        }
-        .cont.info{
-            padding-top:1em;
-            margin-top:1.2em;
-        }
-        .cont.info .row{
-            margin-bottom:20px;
-        }
-        .cont.info p{
-            font-size:18px;
-            margin-bottom:8px;
-        }
-        .information{
-            padding:1em;
-            box-sizing:border-box;
-            box-shadow: 0em 0em 0.5em rgba(0,0,0,0.5);
-            max-width:400px;
-            width:100%;
-            border-radius:0.5em;
-            background:white;
-        }
-        .fecha{
-            border-radius: 0.4em;
-            border: 2px solid #1565c0;
-            padding:0.4em;
-            color:#1565c0;
-            margin: 0 auto;
-            box-sizing:border-box;
-            display: inline-block;
-        }
-        .row button.btn{
-            margin: 0 10px;
-        }
-        @media print{
-            .btn.btn-dark,.btn.btn-light{
-                display: none;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
 
@@ -66,6 +16,11 @@
     <div class="container min">
         <div class="row justify-content-center">
            <h1 class="text-center">Regitro Asistencia Café con Admisiones Familias Nuevas</h1>
+        </div>
+
+        <div class="row-justify-content-between fechaActual">
+            <div class="dateActual">Fecha: <span id="date"></span></div>
+            <div>¿Usted ya es familia Jefferson? Si <span class="cuadro"></span> No <span class="cuadro"></span> </div>
         </div>
             
     <?php 
@@ -96,6 +51,11 @@
                     <p>Fecha de Nacimiento: <?php echo utf8_encode($row["fechaNacimiento"]) ?></p>
                     <p>Dirección: <?php echo utf8_encode($row["direccion"]) ?></p>
                     <p>Jardín: <?php echo utf8_encode($row["jardin"]) ?></p>
+
+                    <br>
+                    <p class="printText"><strong>Nombre del hermano</strong>(Diligenciar si hay hermano)</p>
+                    <p class="printText">Fecha y lugar de nacimiento: </p>
+                    <p class="printText">Jardín infantil o Colegio: </p>
                 </div>
                 <div class="information">
                     <h3>Fecha Open House</h3>
@@ -114,6 +74,7 @@
                     <p>Profesión: <?php echo utf8_encode($row["profesionPadre"]) ?></p>
                     <p>Cargo: <?php echo utf8_encode($row["cargoPadre"]) ?></p>
                     <p>Egresado: <?php echo utf8_encode($row["egresadoPadre"]) ?></p>
+                    <p class="printText">Promoción (si es egresado): </p>
                 </div>
                 <div class="information">
                     <h3>Datos Madre</h3>
@@ -123,6 +84,42 @@
                     <p>Profesión: <?php echo utf8_encode($row["profesionMadre"]) ?></p>
                     <p>Cargo: <?php echo utf8_encode($row["cargoMadre"]) ?></p>
                     <p>Egresado: <?php echo utf8_encode($row["egresadoMadre"]) ?></p>
+                    <p class="printText">Promoción (si es egresado): </p>
+                </div>
+            </div>
+
+            <div class="entero printDivText">
+                <h4>¿Como se enteró de nuestro café con admisiones?</h4>
+                <div class="row option justify-content-between">
+                    <div>
+                        Jardín Infantil <span class="cuadro"></span>
+                    </div>
+                    <div>
+                        Página web <span class="cuadro"></span>
+                    </div>
+                    <div>
+                        Referencias <span class="cuadro"></span>
+                    </div>
+                    <div>
+                        Google <span class="cuadro"></span>
+                    </div>
+                    <div>
+                        Facebook <span class="cuadro"></span>
+                    </div>
+                    <div>
+                        Instagram <span class="cuadro"></span>
+                    </div>
+                </div>
+                
+                <div class="row option justify-content-between">
+                    <div>
+                        Llamada por parte del Colegio <span class="cuadro"></span>
+                    </div>
+                </div>
+                <div class="row option justify-content-between">
+                    <div>
+                        Otro medio <span class="cuadro"></span> ¿Cual? __________________________
+                    </div>
                 </div>
             </div>
 
@@ -130,8 +127,8 @@
                 <a href="./list-mails.php">
                     <button type="button" class="btn btn-light">Volver</button>
                 </a>
-                <a href="">
-                   <!-- <button type="button" class="btn btn-danger">Eliminar</button> -->
+                <a class="imprimir">
+                   <button type="button" class="btn btn-secondary" onclick="window.print()">Imprimir</button>
                 </a>
             </div>
 
@@ -150,6 +147,16 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        let date = document.getElementById('date');
+        
+        const diaActual = new Date();
+
+        date.innerHTML = diaActual.getDate() + "/" + (diaActual.getMonth() +1) + "/" + diaActual.getFullYear();
+
+        console.log(diaActual)
+    
+    </script>
 </body>
 </html>

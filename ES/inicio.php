@@ -322,7 +322,7 @@
 
 	<?php include 'calendario-slide.php' ?>
 
-	<div class="modal" id="modal">
+	<div class="+" id="modal">
 		<div class="contVideoRModal pac huerta" id="contModal">
 			<i class="fas fa-times-circle" id="closeModal"></i>
 			<div class="modalcontPac adv">
