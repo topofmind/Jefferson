@@ -127,17 +127,7 @@
 						</div>
 					</div>
 
-					<div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-open-house-min.jpg" alt="Proyecto Prometeo ">
-							<a href="noticias/jefferson-news/open-house.php">
-								<div class="infoArt">
-									<h3>Open House</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>
+					
 		
 				
 				</div>

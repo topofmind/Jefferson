@@ -64,6 +64,18 @@
 
 					<div class="artNews">
 						<div class="artNew">
+							<img src="../img/noticias/jefferson-news/news-lideres-min.jpg" alt="Nuestro Colegio sigue liderando el panorama educativo en el país">
+							<a href="noticias/jefferson-news/colegio-lider.php">
+								<div class="infoArt">
+									<h3>Nuestro Colegio sigue liderando el panorama educativo en el país</h3>
+									<h4>Leer</h4>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="artNews">
+						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-mochilaton-min.jpg" alt="Mochilaton">
 							<a href="noticias/jefferson-news/mochilaton.php">
 								<div class="infoArt">
@@ -152,18 +164,6 @@
 							<a href="noticias/jefferson-news/celebraciones-advanced.php">
 								<div class="infoArt">
 									<h3>Celebraciones AdvancED</h3>
-									<h4>Leer</h4>
-								</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="artNews">
-						<div class="artNew">
-							<img src="../img/noticias/jefferson-news/news-open-house-min.jpg" alt="Proyecto Prometeo ">
-							<a href="noticias/jefferson-news/open-house.php">
-								<div class="infoArt">
-									<h3>Open House por grados</h3>
 									<h4>Leer</h4>
 								</div>
 							</a>
