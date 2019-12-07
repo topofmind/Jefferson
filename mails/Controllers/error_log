@@ -1,0 +1,18 @@
+[30-Oct-2019 06:52:28 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'adMails'@'localhost' (using password: YES) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=127....', 'adMails', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/Controllers/controller-login.php(5): Mails\Models\Conexion->__construct()
+#2 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18
+[30-Oct-2019 06:54:46 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'https://jefferson.edu.co' (0) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=http...', 'adMails', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/Controllers/controller-login.php(5): Mails\Models\Conexion->__construct()
+#2 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18
+[30-Oct-2019 06:56:37 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'adMails'@'localhost' (using password: YES) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=loca...', 'adMails', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/Controllers/controller-login.php(5): Mails\Models\Conexion->__construct()
+#2 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18

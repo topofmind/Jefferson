@@ -114,14 +114,20 @@
                             </div>
 
                             <div>
-								<label for="Diciembre06">Diciembre 06 de 2019</label>
-  								<input id="Diciembre06" type="radio" name="fecha1" value="Diciembre 06" >
+								<label for="Diciembre06">Diciembre 06 de 2019 (Cupo lleno)</label>
                             </div>
 
+<<<<<<< HEAD
                             <!--<div>
 								<label for="Diciembre11">Diciembre 11 de 2019</label>
   								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
                             </div>-->
+=======
+                            <div>
+								<label for="Diciembre12">Diciembre 12 de 2019</label>
+  								<input id="Diciembre12" type="radio" name="fecha1" value="Diciembre 12" >
+                            </div>
+>>>>>>> 5c7255032641256e10e3c4521648107b2c57051a
                            
 						</div>					
 					</div>

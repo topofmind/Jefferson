@@ -1,0 +1,28 @@
+[30-Oct-2019 06:59:41 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jeffepyd_mails.fechaoh' doesn't exist in /home3/jeffepyd/public_html/sitioweb2/mails/Models/Modelo.php:109
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/Modelo.php(109): PDO->query('SELECT aspirant...')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/views/list-mails.php(62): Mails\Models\Modelo->selectData()
+#2 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/Modelo.php on line 109
+[30-Oct-2019 07:51:21 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhost:3306' (0) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=loca...', 'jeffepyd_adMail...', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/views/sesion.php(6): Mails\Models\Conexion->__construct()
+#2 /home3/jeffepyd/public_html/sitioweb2/mails/views/list-mails.php(1): require_once('/home3/jeffepyd...')
+#3 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18
+[30-Oct-2019 08:05:06 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host '127.0.0.1:3306' (0) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=127....', 'jeffepyd_adMail...', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/views/sesion.php(6): Mails\Models\Conexion->__construct()
+#2 /home3/jeffepyd/public_html/sitioweb2/mails/views/list-mails.php(1): require_once('/home3/jeffepyd...')
+#3 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18
+[30-Oct-2019 08:05:11 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host '127.0.0.1:3306' (0) in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php:18
+Stack trace:
+#0 /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php(18): PDO->__construct('mysql:host=127....', 'jeffepyd_adMail...', 'B+6X%H]^Ay[}')
+#1 /home3/jeffepyd/public_html/sitioweb2/mails/views/sesion.php(6): Mails\Models\Conexion->__construct()
+#2 /home3/jeffepyd/public_html/sitioweb2/mails/views/list-mails.php(1): require_once('/home3/jeffepyd...')
+#3 {main}
+  thrown in /home3/jeffepyd/public_html/sitioweb2/mails/Models/config.php on line 18
+[30-Oct-2019 10:12:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/jeffepyd/public_html/sitioweb2/mails/views/sesion.php:10) in /home3/jeffepyd/public_html/sitioweb2/mails/views/aspirante-detalle.php on line 68

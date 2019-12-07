@@ -1,5 +1,6 @@
 <?php 
 
+
 use Mails\Models\Modelo;
 
 //como incluimos este archivo en envioform.php debemos usar esa ruta como si estuvieramos dentro de la carpeta validate
