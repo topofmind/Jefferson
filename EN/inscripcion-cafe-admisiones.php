@@ -106,27 +106,26 @@
                 <div class="inputInset radio">		
 						<div class="contRadio cafe">
 							
-						<div>
-								<label for="Diciembre05">December 05, 2019</label>
-  								<input id="Diciembre05" type="radio" name="fecha1" value="Diciembre 05" >
+							<div>
+								<label for="January10">January 10 de 2020</label>
+  								<input id="January10" type="radio" name="fecha1" value="January 10" required>
                             </div>
+							
+							<div>
+								<label for="January17">January 17 de 2020</label>
+  								<input id="January17" type="radio" name="fecha1" value="January 17" >
+                            </div>
+                            
 
                             <div>
-								<label for="Diciembre06">December 06, 2019 (Cupo lleno)</label>
-  								<input id="Diciembre06" type="radio" name="fecha1" value="Diciembre 06" >
+								<label for="January24">January 24 de 2020</label>
+  								<input id="January24" type="radio" name="fecha1" value="January 24" >
                             </div>
-
-<<<<<<< HEAD
-                            <!--<div>
-								<label for="Diciembre11">December 11, 2019</label>
-  								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
-                            </div>-->
-=======
+							
                             <div>
-								<label for="Diciembre12">December 12, 2019</label>
-  								<input id="Diciembre12" type="radio" name="fecha1" value="Diciembre 12" >
-                            </div>
->>>>>>> 5c7255032641256e10e3c4521648107b2c57051a
+								<label for="January31">January 31 de 2020</label>
+  								<input id="January31" type="radio" name="fecha1" value="January 31" >
+							</div>
                            
 						</div>					
 					</div>

@@ -109,26 +109,26 @@
 							
 
 							<div>
-								<label for="Diciembre05">Diciembre 05 de 2019</label>
-  								<input id="Diciembre05" type="radio" name="fecha1" value="Diciembre 05" >
+								<label for="Enero10">Enero 10 de 2020</label>
+  								<input id="Enero10" type="radio" name="fecha1" value="Enero 10" required>
                             </div>
+							
+							<div>
+								<label for="Enero17">Enero 17 de 2020</label>
+  								<input id="Enero17" type="radio" name="fecha1" value="Enero 17" >
+                            </div>
+                            
 
                             <div>
-								<label for="Diciembre06">Diciembre 06 de 2019 (Cupo lleno)</label>
+								<label for="Enero24">Enero 24 de 2020</label>
+  								<input id="Enero24" type="radio" name="fecha1" value="Enero 24" >
                             </div>
-
-<<<<<<< HEAD
-                            <!--<div>
-								<label for="Diciembre11">Diciembre 11 de 2019</label>
-  								<input id="Diciembre11" type="radio" name="fecha1" value="Diciembre 11" >
-                            </div>-->
-=======
+							
                             <div>
-								<label for="Diciembre12">Diciembre 12 de 2019</label>
-  								<input id="Diciembre12" type="radio" name="fecha1" value="Diciembre 12" >
-                            </div>
->>>>>>> 5c7255032641256e10e3c4521648107b2c57051a
-                           
+								<label for="Enero31">Enero 31 de 2020</label>
+  								<input id="Enero31" type="radio" name="fecha1" value="Enero 31" >
+							</div>
+							
 						</div>					
 					</div>
 
