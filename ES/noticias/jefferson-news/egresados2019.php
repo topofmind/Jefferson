@@ -25,19 +25,14 @@
             <div class="textShort">
 
                 
-				<p><span class="firstLeter">T</span>ue presentamos el noticiero especial de nuestros egresados Class of 2019, un emocionante recuento de sus logros y de las huellas que dejaron en el Colegio y en nuestros corazones.</p>
-				
-				<div class="VideoYoutube fullwidth ">
-                    <iframe src="https://www.youtube.com/embed/eA0dozN3SI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-			   
+				<p><span class="firstLeter">T</span>e presentamos el noticiero especial de nuestros egresados Class of 2019, un emocionante recuento de sus logros y de las huellas que dejaron en el Colegio y en nuestros corazones.</p>		   
                 
 			</div>
 			
 			
-			<div>
-				<img src="../../../img/noticias/jefferson-news/noti-intercambio-usa.jpg" alt="">
-			</div>
+			<div class="VideoYoutube fullwidth ">
+                    <iframe src="https://www.youtube.com/embed/bI-jKHJfBco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 			
         
         </div>
