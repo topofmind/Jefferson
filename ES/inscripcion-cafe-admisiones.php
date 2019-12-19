@@ -38,10 +38,17 @@
 						<input type="text" name="apellido" placeholder="Apellido" required>
 						<input type="date" name="fechaNacimiento" required>
 					</div>
-					<div class="inputInset col2">
-						<input type="text" name="jardin" placeholder="Jardín o Colegio" required>
-						<input type="text" name="direccion" placeholder="Dirección/Barrio" required>
+					
+					<div class="inputInset space">
 						
+						<input type="text" name="ciudad" placeholder="Ciudad" required>
+						<input type="text" name="direccion" placeholder="Dirección" required>
+						<input type="text" name="barrio" placeholder="Barrio" required>
+						
+					</div>
+					
+					<div class="inputInset space">
+						<input type="text" name="jardin" placeholder="Jardín o Colegio" required>
 					</div>
 				</div>
 
@@ -92,13 +99,37 @@
 							<div>
 								<label for="siM">Si</label>
 								<input id="siM" type="radio" name="egresadoM" value="Si" required>
-							</div> required
+							</div>
 							<div>
 								<label for="noM">No</label>
   								<input id="noM" type="radio" name="egresadoM" value="No" required>
 							</div>
 						</div>					
 					</div>
+				</div>
+
+				<div class="contInput">
+					<div class="subtitleForm">
+						Datos del grupo familia
+					</div>
+					
+					<div class="inputInset radio first">
+						En la toma de decisión de selección de colegio, ¿quien participa?			
+						<div class="contRadio">
+							<div>
+								<label for="chkPadre">Padres</label>
+								<input id="chkPadre" type="radio" name="tomaDesicion" value="padres" required>
+							</div> 
+							<div>
+								<label for="chkOtro">Otro</label>
+  								<input id="chkOtro" type="radio" name="tomaDesicion" value="otro" required>
+							</div>
+						</div>
+						
+					</div>
+							<div id="quien" class="inputInset space hidden">
+								<input type="text" name="quien" placeholder="Quien?" required>
+							</div>
 				</div>
 
 				<div class="contInput text">
@@ -157,6 +188,27 @@
 
 	</div>
 
+<script>
 
+var chkOtro = document.getElementById("chkOtro");
+var chkPadre = document.getElementById("chkPadre");
+	
+
+function ShowHideDiv() {
+
+		
+	}
+	
+chkOtro.onclick = ()=>{
+
+        var quien = document.getElementById("quien");
+        quien.style.display = chkOtro.checked ? "block" : "none";
+} 
+chkPadre.onclick = ()=>{
+
+        var quien = document.getElementById("quien");
+        quien.style.display = chkOtro.checked ? "block" : "none";
+} 
+</script>
 </body>
 </html>

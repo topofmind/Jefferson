@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
 	font-family: trebuchetMS;
 	src:url(../font/trebuc.ttf);
 }
@@ -2906,6 +2906,12 @@ input{
 	justify-content: space-between;
 	width: 100%;
 }
+.contInput .inputInset.hidden{
+	display: none;
+}
+.contInput .inputInset.space{
+	margin-top: 30px;
+}
 .contInput .inputInset.col2{
 	margin-top: 30px;
 	justify-content: flex-start;
@@ -2917,6 +2923,9 @@ input{
 	display: block;
 	text-align: center;
 	margin-top: 20px;
+}
+.contInput .inputInset.radio.first{
+	margin-top: 0;
 }
 .contInput .inputInset.radio input,label{
 	width: auto;

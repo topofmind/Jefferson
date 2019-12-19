@@ -62,7 +62,7 @@
 						</div>
 					</div>
 
-					<!-- <div class="artNews">
+					<div class="artNews">
 						<div class="artNew">
 							<img src="../img/noticias/jefferson-news/news-egresados2019-min.jpg" alt="egresados 2019 colegio Jefferson">
 							<a href="noticias/jefferson-news/egresados2019.php">
@@ -72,7 +72,7 @@
 								</div>
 							</a>
 						</div>
-					</div> -->
+					</div>
 
 
 					<div class="artNews">
